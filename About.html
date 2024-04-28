@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+   
+    <style>
+         body {
+            background-image: url('glowing background.gif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: rgba(103, 212, 255, 0.5); 
+            padding: 20px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-style: groove;
+            border-color:rgba(1, 36, 70, 0.5);
+            
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative; 
+        }
+        .logo {
+            max-width: 200px;
+            border: 3px solid #002358; 
+            border-radius: 100px; 
+            padding: 5px; 
+            
+        }
+        .Quote {
+            top: 10px;
+            right: 10px;
+             }
+        .profile-image {
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            box-shadow: 0 0 20px #00FFFF; 
+        }
+        .bio-text {
+           
+            line-height: 1.6;
+            margin-bottom: 10px; 
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .aboutme {
+            background-image: url('blue image.gif');
+            background-repeat: repeat;
+            background-size: cover;
+            color: white;
+            padding: 10px;
+            margin: 20px auto;
+            max-width: 500px;
+            font-family: 'Roboto Mono', monospace; 
+            text-shadow: 0 0 10px #00FFFF; 
+        }
+        .glowing-images {
+            display: flex; 
+            justify-content: center; 
+            margin-top: 20px;
+        }
+        .glowing-image {
+            border-radius: 10px;
+            box-shadow: 0 0 20px #00FFFF; 
+            margin-right: 20px; 
+        }
+        .glowing-image img {
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+        }
+        .navigation {
+            margin-top: 20px;
+        }
+        .navigation button {
+            color: #fff;
+            border: none;
+            padding: 15px 40px; 
+            font-size: 30px; 
+            cursor: pointer;
+            background-size: cover;
+            background-position: center;
+            transition:  0.3s; 
+            text-shadow: 0 0 10px #ffffff;
+        }
+        .navigation button.home {
+            background-image: url('');
+            background-color: #001c6e;
+        }
+        .navigation button.about {
+            background-image: url('ABOUT ME.png');
+        }
+        .navigation button.portfolio {
+            background-image: url('python.png');
+        }
+        .navigation button.contact {
+            background-image: url('');
+            background-color: #001c6e;
+        }
+        .navigation button:hover {
+            background-color: #001f3f; 
+        }
+        .section {
+            background-image: url('ehh.png');
+            background-size: cover;
+            padding: 10px;
+            margin: 100px;
+            border-style: groove;
+
+        }
+       
+    </style>
+</head>
+<body>
+   
+    <div class="navigation">
+  
+        <button class="home" onclick="window.location.href='index.html'">Home</button>
+        <button class="about" onclick="window.location.href='About.html'">About</button>
+        <button class="portfolio" onclick="window.location.href='Portfolio.html'">Portfolio</button>
+        <button class="contact" onclick="window.location.href='Contact Us.html'">Contact</button>
+    </div>
+    <header>
+        <img class="logo" src="logo.png" alt="Logo">
+       <img class="Quote" src="Quote.png" alt="Quoter" width=200 height="200">
+    </header>
+    <section class="section">
+    <div class="container">
+            <h1 class = "aboutme">ABOUT ME</h1>
+            <img class="profile-image" src="achiever.jpg" alt="Profile Picture">
+            <p>ICT Student/Grade 12</p>
+        </div>
+        <div class="bio-text">
+            
+            <h1>Who am I?</h1>
+            <p>John Christian Leonard P. Nieto was born on December 1st and grew up in the city of Las Piñas. He completed his elementary education at Angel of the Holy Spirit Academy (AHSA) and attended Affordable Private Education Center (APEC) for junior high school. Currently, he is a Senior High School student at Mary Immaculate Parish Special School in Grade 12, taking the Information and Communications Technology strand. He has knowledge in web development, Java programming, and media information. He also has skills in editing photos using Photoshop and editing videos using various video applications, which he learned since he was in 7th grade and often uses for school projects.</p>
+            <img src="NietoMultiplicity.jpg" width="400" height="300">
+            <h2>My Achievements</h2>
+            <p>Won 3rd Place on Best Storyboard, and 2nd Place on Best God Centered Film.</p>
+        </div>
+       
+        <div class="glowing-images">
+            <div class="glowing-image">
+                <img src="award1.jpg" alt="Image 1">
+            </div>
+            <div class="glowing-image">
+                <img src="award 2.jpg" alt="Image 2">
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
